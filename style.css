@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    border-bottom: black 1px solid;
+}
+.navbar{
+    padding: 3%;
+}
+
+
+#img{
+  height: 500px;
+}
+
+
+  
+  .crsl{
+    background-color: lavender;
+    padding: 1% 1%;
+  }
+  .product{
+    margin: 5%;
+  }
+  #suggest h4{
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.145);
+  }
+  .cattagories ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.289);
+  }
+  .cattagories ul li a{
+
+    color: black;
+  }
+  .modal-content{
+    background-color: rgba(0, 255, 255, 0) !important; 
+    outline: none !important;
+    border: none !important;
+  }
+#form input{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgba(253, 253, 253, 0.46);
+  color: black;
+  border-bottom: rgb(0, 0, 0) 1px solid;
+  padding: 5px;
+}
+
+
+
+.content-container {
+  padding-top: 20px;
+}
+
+
+.content-container {
+  padding-left: 220px;
+}
+.bag{
+  text-decoration: none;
+  font-size: 150%;
+  font-weight: bolder;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.offcanvas-body ul li{
+  font-size: 23px;
+} 
+.offcanvas-body ul li:hover{
+  background-color: rgba(0, 0, 0, 0.344);
+} 
+.offcanvas-body ul li i{
+  color: black;
+} 
+.offcanvas-body ul li a{
+  color: black;
+} 
