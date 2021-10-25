@@ -98,3 +98,12 @@ nav{
 .offcanvas-body ul li a{
   color: black;
 } 
+#notify{
+  height: 7px;
+  width: 7px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  /* position: relative; */
+  margin-left: -10px;
+  border-radius: 100px;
+}
